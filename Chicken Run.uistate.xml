@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">LevelEnam</layout>
+        <layout active="1" order="2">LevelTujuh</layout>
+        <event-sheet order="0">EventLevelEnam</event-sheet>
+        <event-sheet order="3">EventLevelTujuh</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="TextJudulGame" />
+        <family expanded="1" name="Musuh" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/LogoGame/" />
+        <folder expanded="1" path="animation-folder/ContainerPilihLevel/" />
+        <folder expanded="1" path="animation-folder/ButtonKembali/" />
+        <folder expanded="1" path="animation-folder/ContainerTextPilihLevel/" />
+        <folder expanded="1" path="animation-folder/FreeSpotTerbuka/" />
+        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/MusuhSinga/" />
+        <folder expanded="1" path="animation-folder/MusuhSerigala/" />
+        <folder expanded="1" path="animation-folder/LogoNyawa/" />
+        <folder expanded="1" path="animation-folder/Sound/" />
+        <folder expanded="1" path="animation-folder/GarisMerah/" />
+        <folder expanded="1" path="animation-folder/Telur/" />
+        <folder expanded="1" path="animation-folder/LogoTelur/" />
+        <folder expanded="1" path="animation-folder/Pohon/" />
+        <folder expanded="1" path="animation-folder/PembatasKiriAtasPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasKananAtasPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasAtasPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasBawahPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasKiriBawahPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasKananBawahPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasKiriTengahPohon/" />
+        <folder expanded="1" path="animation-folder/PembatasKananTengahPohon/" />
+        <folder expanded="1" path="animation-folder/MusuhMobil1/" />
+        <folder expanded="1" path="animation-folder/MusuhMobil2/" />
+        <folder expanded="1" path="animation-folder/ButtonPause/" />
+        <folder expanded="1" path="animation-folder/MusuhSapi/" />
+        <folder expanded="1" path="animation-folder/FreeSpotTertutup/" />
+        <folder expanded="1" path="animation-folder/MusuhKambing/" />
+        <folder expanded="1" path="animation-folder/MusuhKuda/" />
+        <folder expanded="1" path="animation-folder/PohonGugur/" />
+        <folder expanded="1" path="animation-folder/MusuhBabiLiar/" />
+        <folder expanded="1" path="animation-folder/PembatasAtasPohonGugur/" />
+        <folder expanded="1" path="animation-folder/PembatasKiriPohonGugur/" />
+        <folder expanded="1" path="animation-folder/PembatasKananPohonGugur/" />
+        <folder expanded="1" path="animation-folder/PembatasBawahPohonGugur/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+    </folders-expanded>
+</c2uistate>

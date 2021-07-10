@@ -1,0 +1,1357 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventLevelEnam</name>
+    <events>
+        <event-group description="" sid="7170533222102174" title="EventNonAlertLevel6">
+            <sub-events>
+                <event-block sid="7872077353177891">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="4998700828972362" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6301658507870429" type="TextNyawa">
+                            <param id="0" name="Text">Nyawa</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1770529853768468" type="TextTelurTotal">
+                            <param id="0" name="Text">Telur</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3995138485567896" type="System">
+                            <param id="0" name="Variable">TelurLevelIni</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9139443758579403" type="TextTelurLevelIni">
+                            <param id="0" name="Text">TelurLevelIni &amp; &quot; / 15&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="9218011075921007" type="MusuhBabiLiar">
+                            <param id="0" name="Animation">&quot;Right&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="8780975930468852" type="MusuhBabiLiar">
+                            <param id="0" name="Instance variable">CurrentMove</param>
+                            <param id="1" name="Value">MusuhBabiLiar.AnimationName</param>
+                        </action>
+                        <action id="8" name="Set flipped" sid="9982075638550687" type="MusuhBabiLiar">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="3685284183726747" type="MusuhKuda">
+                            <param id="0" name="Animation">&quot;Left&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6154398842493767" type="MusuhKuda">
+                            <param id="0" name="Instance variable">CurrentMove</param>
+                            <param id="1" name="Value">MusuhKuda.AnimationName</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="3357267962080374" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;border&quot;</param>
+                            <param id="1" name="Value">&quot;5px solid black&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="456537496467096" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                            <param id="1" name="Value">&quot;20px&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="4399212368864556" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;color&quot;</param>
+                            <param id="1" name="Value">&quot;black&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="9820263582516387" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;font-size&quot;</param>
+                            <param id="1" name="Value">&quot;28pt&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="597788179897796" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;font-family&quot;</param>
+                            <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="6175798394856564" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;border&quot;</param>
+                            <param id="1" name="Value">&quot;5px solid black&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="4328894217955368" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                            <param id="1" name="Value">&quot;20px&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="8974274189414079" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;color&quot;</param>
+                            <param id="1" name="Value">&quot;black&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="5295623336528644" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;font-size&quot;</param>
+                            <param id="1" name="Value">&quot;28pt&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="5239905186643115" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;font-family&quot;</param>
+                            <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6892310222912265">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="9162332616595064" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="9445541146097546" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="7761522966055628" type="Player">
+                            <param id="0" name="Which">0</param>
+                            <param id="1" name="Speed">1024</param>
+                        </action>
+                        <action behavior="CustomMovement" id="6" name="Set angle of motion" sid="3353603012027237" type="Player">
+                            <param id="0" name="Angle">180</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5595017802457778" type="Player">
+                            <param id="0" name="Animation">&quot;Left&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="9833132336683931" type="Player">
+                            <param id="0" name="Instance variable">CurrentMove</param>
+                            <param id="1" name="Value">Player.AnimationName</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7757666592024951">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="4028538073085515" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="1248161934381892" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="5359547498149728" type="Player" />
+                        <action id="4" name="Set animation" sid="7076312379503629" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7682475145542425" type="Player">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3668025547683517">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="675917002298086" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2860554014130866" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="5649983590802849" type="Player">
+                            <param id="0" name="Which">0</param>
+                            <param id="1" name="Speed">1024</param>
+                        </action>
+                        <action behavior="CustomMovement" id="6" name="Set angle of motion" sid="6172000629615392" type="Player">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="566756971763085" type="Player">
+                            <param id="0" name="Animation">&quot;Right&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6608456197390469" type="Player">
+                            <param id="0" name="Instance variable">CurrentMove</param>
+                            <param id="1" name="Value">Player.AnimationName</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5203482008517357">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="4743465247115628" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8192226854886663" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="7537553219856578" type="Player" />
+                        <action id="4" name="Set animation" sid="564037774309931" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="8892616742660457" type="Player">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9707825352327639">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="1908460951911571" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="4611545584599646" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="1459455724673453" type="Player">
+                            <param id="0" name="Which">0</param>
+                            <param id="1" name="Speed">1024</param>
+                        </action>
+                        <action behavior="CustomMovement" id="6" name="Set angle of motion" sid="3339994852240377" type="Player">
+                            <param id="0" name="Angle">-90</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="3511883365793246" type="Player">
+                            <param id="0" name="Animation">&quot;Up&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="7353160460723888" type="Player">
+                            <param id="0" name="Instance variable">CurrentMove</param>
+                            <param id="1" name="Value">Player.AnimationName</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9121381573098752">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="3597004148129838" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3840797308929074" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="8034430718699038" type="Player" />
+                        <action id="4" name="Set animation" sid="7970003480699221" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="5753476467912975" type="Player">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4992094532589525">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="5970198653732609" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="4051841416754542" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="6260505633403746" type="Player">
+                            <param id="0" name="Which">0</param>
+                            <param id="1" name="Speed">1024</param>
+                        </action>
+                        <action behavior="CustomMovement" id="6" name="Set angle of motion" sid="3876169381254464" type="Player">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5136651571717312" type="Player">
+                            <param id="0" name="Animation">&quot;Down&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="7904720719813853" type="Player">
+                            <param id="0" name="Instance variable">CurrentMove</param>
+                            <param id="1" name="Value">Player.AnimationName</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="479943644318748">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="7352745189996813" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2449875748406449" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="3119510734454225" type="Player" />
+                        <action id="4" name="Set animation" sid="29614148488029" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="700939434966762" type="Player">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7386672688818828">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="2425914934097594" type="Player">
+                            <param id="0" name="Object">Musuh</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="8129345059177825" type="Player" />
+                        <action id="4" name="Set animation" sid="2862661447486513" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="CustomMovement" id="12" name="Set enabled" sid="9310577494568414" type="Player">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="8489985947792448" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Value">&quot;ya&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="6074175324012422" type="MusuhBabiLiar">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="8562726921792758" type="MusuhBabiLiar">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="7710665287010014" type="MusuhKuda">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="5172282359983269" type="MusuhKuda">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="5869455860079915" type="MusuhMobil1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="9795824717249956" type="MusuhMobil2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8236491670365286">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9753308071184013" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3482540522459009" type="Player">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1108391891486145">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2975434853573886" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1183742645422023" type="Player">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3611950951905775">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="4965185989863461" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Up&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="4275347985662854" type="Player">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1590590210226884">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9376971156430185" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Down&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7297352559568663" type="Player">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1662223115503124">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="8108476775477234" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2700630938719143" type="MusuhBabiLiar">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9248703307124015">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2948011095770687" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2325948116332519" type="MusuhBabiLiar">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4427546823741722">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="4778126740979204" type="MusuhKuda">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2707859175995732" type="MusuhKuda">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2856733389167622">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8248272898356858" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7058593508454436">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6830559857509927" type="System">
+                                            <param id="0" name="Variable">IsSoundNyala</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;ya&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="7850913364351566" type="Audio">
+                                            <param id="0" name="Audio file">GameOver</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;GameOver&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1681337788639258">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="1744210257167071" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Subtract from" sid="9753712490467438" type="System">
+                                            <param id="0" name="Variable">Nyawa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="4365886880008486" type="TextNyawa">
+                                            <param id="0" name="Text">Nyawa</param>
+                                        </action>
+                                        <action id="0" name="Alert" sid="7398983109519041" type="Browser">
+                                            <param id="0" name="Message">&quot;Game Over! Nyawa Anda telah habis&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="4340386344137791" type="System">
+                                            <param id="0" name="Variable">IsGameOver</param>
+                                            <param id="1" name="Value">&quot;ya&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="6500437524836926" type="System">
+                                            <param id="0" name="Variable">Telur</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="8087880986101472" type="Player">
+                                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="7347770412068865" type="Player">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="12" name="Set enabled" sid="2055331333228752" type="Player">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="2206658361932836" type="System">
+                                            <param id="0" name="Layout">MenuAwal</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="9571655259648315">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="1110152118937233" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="9991582034823351">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="1114654814783276" type="System">
+                                            <param id="0" name="Variable">IsSoundNyala</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;ya&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="4778381118779206" type="Audio">
+                                            <param id="0" name="Audio file">PlayerMati</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;PlayerMati&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4695757785433066">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="8541657353836689" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Subtract from" sid="7340137400023476" type="System">
+                                            <param id="0" name="Variable">Nyawa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="6115366478985742" type="TextNyawa">
+                                            <param id="0" name="Text">Nyawa</param>
+                                        </action>
+                                        <action id="0" name="Alert" sid="1506863638803232" type="Browser">
+                                            <param id="0" name="Message">&quot;Nyawa Anda sisa = &quot; &amp; Nyawa</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="267417245918328" type="Player">
+                                            <param id="0" name="X">1024</param>
+                                            <param id="1" name="Y">3960</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="4104281280784144" type="Player">
+                                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="2591318436156839" type="Player">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="12" name="Set enabled" sid="7914356792118558" type="Player">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="600511235899502" type="MusuhBabiLiar">
+                                            <param id="0" name="Animation">MusuhBabiLiar.CurrentMove</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="5" name="Set enabled" sid="8572914198148617" type="MusuhBabiLiar">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="5667295470522661" type="MusuhKuda">
+                                            <param id="0" name="Animation">MusuhKuda.CurrentMove</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="5" name="Set enabled" sid="4416938069215213" type="MusuhKuda">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="5" name="Set enabled" sid="1261941629977645" type="MusuhMobil1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="5" name="Set enabled" sid="9975575897275368" type="MusuhMobil2">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9426186202065208">
+                    <conditions>
+                        <condition id="0" name="On ended" sid="9611359886437627" type="Audio">
+                            <param id="0" name="Tag">&quot;GameOver&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="8635572867801729" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3433606826533647" type="TextNyawa">
+                            <param id="0" name="Text">Nyawa</param>
+                        </action>
+                        <action id="0" name="Alert" sid="4921623238046767" type="Browser">
+                            <param id="0" name="Message">&quot;Game Over! Nyawa Anda telah habis&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1012627900710117" type="System">
+                            <param id="0" name="Variable">IsGameOver</param>
+                            <param id="1" name="Value">&quot;ya&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4224387270681763" type="System">
+                            <param id="0" name="Variable">Telur</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="1552980420436086" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2155262603716101" type="Player">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action behavior="CustomMovement" id="12" name="Set enabled" sid="4529780914250672" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="3971800973495189" type="System">
+                            <param id="0" name="Layout">MenuAwal</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2986580597132564">
+                    <conditions>
+                        <condition id="0" name="On ended" sid="2693135901543701" type="Audio">
+                            <param id="0" name="Tag">&quot;PlayerMati&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="5789529532056305" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3965311441931302" type="TextNyawa">
+                            <param id="0" name="Text">Nyawa</param>
+                        </action>
+                        <action id="0" name="Alert" sid="9357793981519949" type="Browser">
+                            <param id="0" name="Message">&quot;Nyawa Anda sisa = &quot; &amp; Nyawa</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="515509126673752" type="Player">
+                            <param id="0" name="X">1024</param>
+                            <param id="1" name="Y">3960</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5675004945182636" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="833238115238863" type="Player">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action behavior="CustomMovement" id="12" name="Set enabled" sid="5343382509612482" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="1307816819904693" type="MusuhBabiLiar">
+                            <param id="0" name="Animation">MusuhBabiLiar.CurrentMove</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="3697432366701492" type="MusuhBabiLiar">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="6674102936891496" type="MusuhKuda">
+                            <param id="0" name="Animation">MusuhKuda.CurrentMove</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="6144467226906455" type="MusuhKuda">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="4347929262678826" type="MusuhMobil1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="3060118107649898" type="MusuhMobil2">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5741929194812668">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="9185574724447148" type="Player">
+                            <param id="0" name="Object">FreeSpotTerbuka</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7229549328565362" type="System">
+                            <param id="0" name="Variable">TelurLevelIni</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="8184470212249763" type="Player" />
+                        <action id="4" name="Set animation" sid="2858218575885792" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="CustomMovement" id="12" name="Set enabled" sid="3070468571163452" type="Player">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5857299063699355" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Value">&quot;ya&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="4186668665884503" type="MusuhBabiLiar">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="9692402707374025" type="MusuhBabiLiar">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5940870715287358" type="MusuhKuda">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="4100237086361414" type="MusuhKuda">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="69960021237718" type="MusuhMobil1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="210912180410507" type="MusuhMobil2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="270835981234183" type="TextGoToNextLevel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9168109692689544">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9257287984817652" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="5368249475851144" type="Player">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7144700534807616">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="7890442965593899" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2628923261297341" type="Player">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9343986239681294">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3735845157900309" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Up&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7655318328095283" type="Player">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3601628037513769">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="8623016432937006" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Down&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="8614088480302065" type="Player">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5524771129634255">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2953810010868009" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3499296864056416" type="MusuhBabiLiar">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8867258992313496">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="7125308734952658" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="881774494840123" type="MusuhBabiLiar">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1901389900319807">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="8011033059312187" type="MusuhKuda">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1369689263586456" type="MusuhKuda">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8980795117084515">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4293199907622909" type="System">
+                                    <param id="0" name="Variable">IsSoundNyala</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ya&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="5030185572862976" type="Audio">
+                                    <param id="0" name="Audio file">LevelSukses</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;LevelSukses&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="538002429261013">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="2431239672599597" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Alert" sid="8691914104746564" type="Browser">
+                                    <param id="0" name="Message">&quot;You&apos;re free, congratulations!&quot;</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="2810640850034285" type="System">
+                                    <param id="0" name="Variable">IsLevelTujuhTerkunci</param>
+                                    <param id="1" name="Value">&quot;tidak&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="7070830841993895" type="Player">
+                                    <param id="0" name="Instance variable">IsAnimationStopped</param>
+                                    <param id="1" name="Value">&quot;tidak&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="8284076216052578" type="System">
+                                    <param id="0" name="Layout">PilihLevel</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2438006911841479">
+                    <conditions>
+                        <condition id="0" name="On ended" sid="8245963539004696" type="Audio">
+                            <param id="0" name="Tag">&quot;LevelSukses&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Alert" sid="7196719953399528" type="Browser">
+                            <param id="0" name="Message">&quot;You&apos;re free, congratulations!&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2719033495335721" type="System">
+                            <param id="0" name="Variable">IsLevelTujuhTerkunci</param>
+                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="4523307000352325" type="Player">
+                            <param id="0" name="Instance variable">IsAnimationStopped</param>
+                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1861019240524503" type="System">
+                            <param id="0" name="Layout">PilihLevel</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="218222778876823">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="2801679064277712" type="Player">
+                            <param id="0" name="Object">Telur</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="6569786791240121" type="System">
+                            <param id="0" name="Variable">Telur</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="6361111797259672" type="TextTelurTotal">
+                            <param id="0" name="Text">Telur</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="2376033903310045" type="System">
+                            <param id="0" name="Variable">TelurLevelIni</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="7401904286129625" type="TextTelurLevelIni">
+                            <param id="0" name="Text">TelurLevelIni &amp; &quot; / 15&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="4870379232048602" type="Telur" />
+                    </actions>
+                    <sub-events>
+                        <event-block sid="4302225231038058">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="6802161913214329" type="System">
+                                    <param id="0" name="Variable">IsSoundNyala</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ya&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="3982520209148091" type="Audio">
+                                    <param id="0" name="Audio file">DapatTelur</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;DapatTelur&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6781213604952747">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="8317781229856891" type="System">
+                                    <param id="0" name="First value">Telur % 50</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="5206272512047531" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="1943641600571112" type="TextNyawa">
+                                    <param id="0" name="Text">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5630136830587303">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3533794855981801" type="System">
+                                    <param id="0" name="Variable">TelurLevelIni</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="7752887026976059" type="FreeSpotTertutup">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="4201704752323732" type="FreeSpotTerbuka">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="1124125917604038" type="TextGoToNextLevel">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1214320239554114">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="5255247336195439" type="Player">
+                            <param id="0" name="Object">PembatasAtasPohonGugur</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="240027477343716" type="Player">
+                            <param id="0" name="X">Player.X</param>
+                            <param id="1" name="Y">Player.Y - 32</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="776603200850007">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="1578278479720658" type="Player">
+                            <param id="0" name="Object">PembatasKiriPohonGugur</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="1753487072119518" type="Player">
+                            <param id="0" name="X">Player.X - 32</param>
+                            <param id="1" name="Y">Player.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5156704695611678">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="5138817689192026" type="Player">
+                            <param id="0" name="Object">PembatasKananPohonGugur</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7709505800795976" type="Player">
+                            <param id="0" name="X">Player.X + 32</param>
+                            <param id="1" name="Y">Player.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8751745851529706">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9828193087532169" type="Player">
+                            <param id="0" name="Object">PembatasBawahPohonGugur</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="1992004814458694" type="Player">
+                            <param id="0" name="X">Player.X</param>
+                            <param id="1" name="Y">Player.Y + 32</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1484259616234348">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="7687345148980461" type="MusuhBabiLiar">
+                            <param id="0" name="Object">PohonGugur</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6496829504360221">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="1064196581858638" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Rotate clockwise" sid="8681497386839759" type="MusuhBabiLiar">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="9866504872843046" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Value">&quot;Left&quot;</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="605360707504889" type="MusuhBabiLiar">
+                                    <param id="0" name="Animation">&quot;Left&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6684195864916684">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="1579090610076538" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Rotate clockwise" sid="6942707876968915" type="MusuhBabiLiar">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="5248055530749564" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Value">&quot;Right&quot;</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="9735276754329048" type="MusuhBabiLiar">
+                                    <param id="0" name="Animation">&quot;Right&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1592729074108085">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="194961615885373" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ButtonPause</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="0" name="Stop" sid="6703707816384082" type="Player" />
+                        <action id="4" name="Set animation" sid="5692818191835027" type="Player">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5064415591383469" type="MusuhBabiLiar">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="7598760063413006" type="MusuhBabiLiar">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="4170593190888476" type="MusuhKuda">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="7179775201948344" type="MusuhKuda">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="5317698125367114" type="MusuhMobil1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="522242025454225" type="MusuhMobil2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="2213681985541406" type="System">
+                            <param id="0" name="Group name">&quot;EventNonAlertLevel6&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="311708298314144" type="System">
+                            <param id="0" name="Group name">&quot;EventAlertLevel6&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="3783739718088352" type="ButtonMainMenuPause">
+                            <param id="0" name="X">((2/ 5) * ViewportRight(&quot;Pause&quot;))</param>
+                            <param id="1" name="Y">ViewportTop(&quot;Pause&quot;) + 300</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="2414947442810428" type="ButtonContinuePause">
+                            <param id="0" name="X">((2/ 5) * ViewportRight(&quot;Pause&quot;))</param>
+                            <param id="1" name="Y">ViewportTop(&quot;Pause&quot;) + 600</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="2799467313717359" type="System">
+                            <param id="0" name="Layer">&quot;Pause&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6332447149267377">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="6524654207395044" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3640395008407175" type="Player">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6552477014986431">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="7038455054223019" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1204540684345514" type="Player">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6633022167067644">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2057950188413017" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Up&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3738909390369355" type="Player">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9444213465525453">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="192465459498255" type="Player">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Down&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="5721740557003979" type="Player">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="309457699857915">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="4143569096693335" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1692813935042782" type="MusuhBabiLiar">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7979534778489722">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="7881612207440565" type="MusuhBabiLiar">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3344847382133723" type="MusuhBabiLiar">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1641836818374885">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="6076573011806482" type="MusuhKuda">
+                                    <param id="0" name="Instance variable">CurrentMove</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3342838841956975" type="MusuhKuda">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="8153488133071077" title="EventAlertLevel6">
+            <sub-events>
+                <event-block sid="8248608685918168">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="472596255617942" type="Mouse">
+                            <param id="0" name="Object">ButtonMainMenuPause</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set CSS style" sid="5182768379799829" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;0.5&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="5372452268017982" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                            <param id="1" name="Value">&quot;0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5020869849995467">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="5735341445459843" type="Mouse">
+                            <param id="0" name="Object">ButtonMainMenuPause</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set CSS style" sid="8151991758927932" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="7327180256012034" type="ButtonMainMenuPause">
+                            <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6075767444127629">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="5015192910122377" type="Mouse">
+                            <param id="0" name="Object">ButtonContinuePause</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set CSS style" sid="329204080410988" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;0.5&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="7882834382482545" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                            <param id="1" name="Value">&quot;0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5817943729238486">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="9368824279992418" type="Mouse">
+                            <param id="0" name="Object">ButtonContinuePause</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set CSS style" sid="5827658939250138" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="4406062960147614" type="ButtonContinuePause">
+                            <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="764331902428158">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="5330584975798883" type="ButtonMainMenuPause" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="119534856481861" type="System">
+                            <param id="0" name="Layer">&quot;Pause&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="8109420168821728" type="System">
+                            <param id="0" name="Group name">&quot;EventAlertLevel6&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="9986724249429966" type="System">
+                            <param id="0" name="Group name">&quot;EventNonAlertLevel6&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="8117760447610836" type="System">
+                            <param id="0" name="Layout">MenuAwal</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8731795010029764">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="4303675491308032" type="ButtonContinuePause" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="4262675437879345" type="System">
+                            <param id="0" name="Layer">&quot;Pause&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="170678137317753" type="System">
+                            <param id="0" name="Group name">&quot;EventAlertLevel6&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="103726319052818" type="System">
+                            <param id="0" name="Group name">&quot;EventNonAlertLevel6&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="4732963475408272" type="MusuhBabiLiar">
+                            <param id="0" name="Animation">MusuhBabiLiar.CurrentMove</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="1765387541959441" type="MusuhBabiLiar">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="1780243182987802" type="MusuhKuda">
+                            <param id="0" name="Animation">MusuhKuda.CurrentMove</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="3522990755820954" type="MusuhKuda">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="7712290679878936" type="MusuhMobil1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="871284070004965" type="MusuhMobil2">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

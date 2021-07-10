@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventPilihLevel</name>
+    <events>
+        <event-block sid="4205441872046114">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4576808339972461" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="340460896716364" type="ButtonLevel1">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="3837394426604917" type="ButtonLevel1">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="7720188701941798" type="ButtonLevel1">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="275493547560164" type="ButtonLevel2">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="7702484164346386" type="ButtonLevel2">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="5397617085280591" type="ButtonLevel2">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="2154270437571674" type="ButtonLevel2">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="744764827060037" type="ButtonLevel3">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1699382181727134" type="ButtonLevel3">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1237307267963126" type="ButtonLevel3">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="3786208747791252" type="ButtonLevel3">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1453521890858668" type="ButtonLevel4">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="7105392435131744" type="ButtonLevel4">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="5034468512574142" type="ButtonLevel4">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="9338332508430981" type="ButtonLevel4">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="305062062039327" type="ButtonLevel5">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="8558302217518727" type="ButtonLevel5">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="395369002503747" type="ButtonLevel5">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="8853029076161812" type="ButtonLevel5">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1416544085435218" type="ButtonLevel6">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="3014392730330985" type="ButtonLevel6">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="9727022053179551" type="ButtonLevel6">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="8123803109395204" type="ButtonLevel6">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1765846529594433" type="ButtonLevel7">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="6371149215233064" type="ButtonLevel7">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;36pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="4004947993522809" type="ButtonLevel7">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="35659305706829" type="ButtonLevel7">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7743266746774126">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4924703965169846" type="System">
+                            <param id="0" name="Variable">IsSoundNyala</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ya&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="8754708747319582" type="Audio">
+                            <param id="0" name="Audio file">PilihLevel</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;PilihLevel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7663275924212473">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6749189583201029" type="System">
+                            <param id="0" name="Variable">IsLevelDuaTerkunci</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="3476219836923575" type="ButtonLevel2">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="6246511551988357" type="ButtonLevel2">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7954912076980751">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="60190106136188" type="System">
+                            <param id="0" name="Variable">IsLevelTigaTerkunci</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="7584469737187954" type="ButtonLevel3">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="2934160459596092" type="ButtonLevel3">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3950723208691239">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6988167417525761" type="System">
+                            <param id="0" name="Variable">IsLevelEmpatTerkunci</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="6788328167065891" type="ButtonLevel4">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="3480001441563695" type="ButtonLevel4">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9870692374285146">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1233571664500736" type="System">
+                            <param id="0" name="Variable">IsLevelLimaTerkunci</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="7228716763138796" type="ButtonLevel5">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="249212512576129" type="ButtonLevel5">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3474381840267871">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3055107058042033" type="System">
+                            <param id="0" name="Variable">IsLevelEnamTerkunci</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="7284798611612472" type="ButtonLevel6">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="552921353390641" type="ButtonLevel6">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9021854325850815">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9259607519414971" type="System">
+                            <param id="0" name="Variable">IsLevelTujuhTerkunci</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;tidak&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="6374256486302164" type="ButtonLevel7">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="8425482900132677" type="ButtonLevel7">
+                            <param id="0" name="Property name">&quot;opacity&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6779374426520045">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="9130920324697723" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="2101986663986757" type="ButtonLevel1">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="490581064286845">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7920135126918605" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="3415835103526153" type="ButtonLevel1">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7241352454001546">
+            <conditions>
+                <condition id="0" name="On clicked" sid="2181196978044029" type="ButtonLevel1" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="3490455264383592" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9826817950061608" type="System">
+                    <param id="0" name="Layout">LevelSatu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7195378426636218">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5136795639142796" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5338395753696696" type="System">
+                    <param id="0" name="Variable">IsLevelDuaTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="3973706170043462" type="ButtonLevel2">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6793339461063875">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7061433380334917" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5988270682939774" type="System">
+                    <param id="0" name="Variable">IsLevelDuaTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="6943384479169036" type="ButtonLevel2">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6656148809344792">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8016621230306417" type="ButtonLevel2" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="2732108810226041" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8325361636121921" type="System">
+                    <param id="0" name="Layout">LevelDua</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4579777906946965">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5867681293011623" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="534611484842153" type="System">
+                    <param id="0" name="Variable">IsLevelTigaTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="5760302626927948" type="ButtonLevel3">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5019143509663246">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2196926626060529" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="6735548403486328" type="System">
+                    <param id="0" name="Variable">IsLevelTigaTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="7428145198731725" type="ButtonLevel3">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8363686673154576">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8951436501144495" type="ButtonLevel3" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="8378331098356555" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="925809934976039" type="System">
+                    <param id="0" name="Layout">LevelTiga</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9899059391924322">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5206221025367808" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8225948963885472" type="System">
+                    <param id="0" name="Variable">IsLevelEmpatTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="8548947107088575" type="ButtonLevel4">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5528138618027105">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="3323499009974136" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7945522072921487" type="System">
+                    <param id="0" name="Variable">IsLevelEmpatTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="9140163588975825" type="ButtonLevel4">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3634450351133004">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9074028264690828" type="ButtonLevel4" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="7225500397557292" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5607794253501835" type="System">
+                    <param id="0" name="Layout">LevelEmpat</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7307776984151134">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6394162136805216" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8614542624019282" type="System">
+                    <param id="0" name="Variable">IsLevelLimaTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="1040350544162394" type="ButtonLevel5">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5851699215346271">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6390481675562791" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="708215694596996" type="System">
+                    <param id="0" name="Variable">IsLevelLimaTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="7015610731568533" type="ButtonLevel5">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3968094211444943">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8024398355098217" type="ButtonLevel5" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="4069075471701975" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5011901018383838" type="System">
+                    <param id="0" name="Layout">LevelLima</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4340690348598001">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3053307642365329" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel6</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7871768637682175" type="System">
+                    <param id="0" name="Variable">IsLevelEnamTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="3598656487503737" type="ButtonLevel6">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1177427653869517">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="5525896350701323" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel6</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2603855346633691" type="System">
+                    <param id="0" name="Variable">IsLevelEnamTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="8228674500163821" type="ButtonLevel6">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4093617479269447">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6496519179628554" type="ButtonLevel6" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="6665460725715109" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5150087386616262" type="System">
+                    <param id="0" name="Layout">LevelEnam</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7518073437770473">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6304281950825547" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel7</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2707079913413064" type="System">
+                    <param id="0" name="Variable">IsLevelTujuhTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="5042721098320977" type="ButtonLevel7">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9771864610673062">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9417540380122385" type="Mouse">
+                    <param id="0" name="Object">ButtonLevel7</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="9510691241602776" type="System">
+                    <param id="0" name="Variable">IsLevelTujuhTerkunci</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;tidak&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="3384174757416013" type="ButtonLevel7">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7350837193366585">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6631205840468787" type="ButtonLevel7" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="2175418299477388" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8915667151328257" type="System">
+                    <param id="0" name="Layout">LevelTujuh</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1226121922232121">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6169289771565021" type="Mouse">
+                    <param id="0" name="Object">ButtonKembali</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="4521406210815575" type="ButtonKembali">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5138632177839987">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="5019390621901664" type="Mouse">
+                    <param id="0" name="Object">ButtonKembali</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="9615266837332503" type="ButtonKembali">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5494583448984728">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8291708185661835" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonKembali</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="9093083100058213" type="Audio">
+                    <param id="0" name="Tag">&quot;PilihLevel&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9392198744146777" type="System">
+                    <param id="0" name="Layout">MenuAwal</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

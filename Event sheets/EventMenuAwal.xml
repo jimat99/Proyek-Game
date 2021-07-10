@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventMenuAwal</name>
+    <events>
+        <variable constant="0" name="TelurLevelIni" sid="8201886371666172" static="0" type="number">0</variable>
+        <variable constant="0" name="Telur" sid="8389638344409543" static="0" type="number">0</variable>
+        <variable constant="0" name="Nyawa" sid="9826506563230685" static="0" type="number">3</variable>
+        <variable constant="0" name="IsSoundNyala" sid="4171206487667278" static="0" type="text">ya</variable>
+        <variable constant="0" name="IsGameOver" sid="5198991442744749" static="0" type="text">&quot;tidak&quot;</variable>
+        <variable constant="0" name="IsLevelDuaTerkunci" sid="3085947220438872" static="0" type="text">&quot;ya&quot;</variable>
+        <variable constant="0" name="IsLevelTigaTerkunci" sid="1283076512761664" static="0" type="text">&quot;ya&quot;</variable>
+        <variable constant="0" name="IsLevelEmpatTerkunci" sid="5096082802952887" static="0" type="text">&quot;ya&quot;</variable>
+        <variable constant="0" name="IsLevelLimaTerkunci" sid="11533212057051" static="0" type="text">&quot;ya&quot;</variable>
+        <variable constant="0" name="IsLevelEnamTerkunci" sid="7884275157754065" static="0" type="text">&quot;ya&quot;</variable>
+        <variable constant="0" name="IsLevelTujuhTerkunci" sid="98590189172298" static="0" type="text">&quot;ya&quot;</variable>
+        <variable constant="0" name="IsLevelDelapanTerkunci" sid="3880174128076144" static="0" type="text">&quot;ya&quot;</variable>
+        <event-block sid="4977474672231821">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5937153375883267" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="103643707668548" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;5px solid black&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="4741352463614718" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="3952106920580657" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;black&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="6970120316958" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;28pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="6053819849280637" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="7958762764909477" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;5px solid black&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1328724475479135" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;border-radius&quot;</param>
+                    <param id="1" name="Value">&quot;20px&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="6417311111548245" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;black&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1382890783588894" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;28pt&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="2747800638262241" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;font-family&quot;</param>
+                    <param id="1" name="Value">&quot;Ar Delaney&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9752137689472035">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9466293181231848" type="System">
+                            <param id="0" name="Variable">IsSoundNyala</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ya&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="7405087936191005" type="Audio">
+                            <param id="0" name="Audio file">MenuAwal</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;MenuAwal&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="681885045359198">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="8987407947704403" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="5104274194080103" type="GarisMerah">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2225971688070174">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="373685910277257" type="System">
+                            <param id="0" name="Variable">IsGameOver</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ya&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2344853402794469" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5880923324333977" type="System">
+                            <param id="0" name="Variable">IsGameOver</param>
+                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4272023044005935">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6325537666953105" type="Mouse">
+                    <param id="0" name="Object">TextJudulGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Set blend mode" sid="6612503725443266" type="TextJudulGame1">
+                    <param id="0" name="Blend mode">1</param>
+                </action>
+                <action id="6" name="Set blend mode" sid="8201285830360841" type="TextJudulGame2">
+                    <param id="0" name="Blend mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3551974258932403">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6487959561152547" type="Mouse">
+                    <param id="0" name="Object">TextJudulGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Set blend mode" sid="5016465815489627" type="TextJudulGame1">
+                    <param id="0" name="Blend mode">0</param>
+                </action>
+                <action id="6" name="Set blend mode" sid="4642702499786036" type="TextJudulGame2">
+                    <param id="0" name="Blend mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2354784766279288">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7320632998442426" type="Mouse">
+                    <param id="0" name="Object">LogoGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set blend mode" sid="2231348790576729" type="LogoGame">
+                    <param id="0" name="Blend mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7330115996894325">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7942207070238329" type="Mouse">
+                    <param id="0" name="Object">LogoGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set blend mode" sid="7392630650673885" type="LogoGame">
+                    <param id="0" name="Blend mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2629749863032743">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6264186085995669" type="Mouse">
+                    <param id="0" name="Object">ButtonPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="4158226358256147" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="7956017751237959" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                    <param id="1" name="Value">&quot;0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="704690487256838">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9731397025587127" type="Mouse">
+                    <param id="0" name="Object">ButtonPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="5823736237194936" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="1056961366359727" type="ButtonPlay">
+                    <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2449224062538192">
+            <conditions>
+                <condition id="0" name="On clicked" sid="2587281847244341" type="ButtonPlay" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="5492792611418696" type="Audio">
+                    <param id="0" name="Tag">&quot;MenuAwal&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="351912058758083" type="System">
+                    <param id="0" name="Layout">PilihLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="646853370753257">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1408632875953226" type="Mouse">
+                    <param id="0" name="Object">ButtonHowToPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="740749256009271" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0.5&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="383352778659809" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                    <param id="1" name="Value">&quot;0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1043124398717185">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="96385063033895" type="Mouse">
+                    <param id="0" name="Object">ButtonHowToPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="69011131554736" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;1&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="5526359694609883" type="ButtonHowToPlay">
+                    <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4861289500609117">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6820627472222457" type="Mouse">
+                    <param id="0" name="Object">Sound</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="2780528803910593" type="Sound">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9090133839974592">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="681760468207625" type="Mouse">
+                    <param id="0" name="Object">Sound</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="5402779387312482" type="Sound">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7945004858375234">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2792551065343458" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1548651160598363">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8142986343191084" type="System">
+                            <param id="0" name="Variable">IsSoundNyala</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ya&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="286064229766285" type="Audio">
+                            <param id="0" name="Tag">&quot;MenuAwal&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1154437607747891" type="GarisMerah">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2497617860242937" type="System">
+                            <param id="0" name="Variable">IsSoundNyala</param>
+                            <param id="1" name="Value">&quot;tidak&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3988759799020863">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3780110582741401" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="957231124342853" type="Audio">
+                            <param id="0" name="Audio file">MenuAwal</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;MenuAwal&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9329618132718834" type="GarisMerah">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="168367287338334" type="System">
+                            <param id="0" name="Variable">IsSoundNyala</param>
+                            <param id="1" name="Value">&quot;ya&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

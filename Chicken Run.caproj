@@ -1,0 +1,1180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Chicken Run</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1c9vfqm33bz6x</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>2048</width>
+        <height>1024</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>MenuAwal</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Percentage text</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Firefox</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Browser" sid="3084611109268362">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="TiledBackground" sid="2131536554058822">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Level Terakhir.jpg" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="8407742230833847">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Rumput.jpg" />
+        </object-type>
+        <object-type name="TextJudulGame1" sid="1366009511786872">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextJudulGame2" sid="5334231629178134">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ButtonPlay" sid="2366050775941881">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ButtonHowToPlay" sid="5147549029772181">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="LogoGame" sid="3220998796218336">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2380371104242346" speed="5">
+                    <frame duration="1" hotspotX="0.553633" hotspotY="0.520408" original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Logo Game Sekarang.png">
+                        <collision-poly>
+                            <point x="0.231834" y="0.238095" />
+                            <point x="0.553633" y="0.170068" />
+                            <point x="0.844291" y="0.268707" />
+                            <point x="0.975779" y="0.520408" />
+                            <point x="0.768166" y="0.697279" />
+                            <point x="0.553633" y="0.92517" />
+                            <point x="0.249135" y="0.785714" />
+                            <point x="0.141869" y="0.520408" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="9041812024194278">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Rumput.jpg" />
+        </object-type>
+        <object-type name="ContainerPilihLevel" sid="7692575133572902">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4514499891310054" speed="5">
+                    <frame duration="1" hotspotX="0.503171" hotspotY="0.514286" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Container Pilih Level.png">
+                        <collision-poly>
+                            <point x="0.00634249" y="0.0523809" />
+                            <point x="0.501057" y="0.00952381" />
+                            <point x="0.993658" y="0.0619048" />
+                            <point x="0.991543" y="0.957143" />
+                            <point x="0.501057" y="0.995238" />
+                            <point x="0.0105708" y="0.961905" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonKembali" sid="5120546023364438">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8601838634187913" speed="5">
+                    <frame duration="1" hotspotX="0.412371" hotspotY="0.45679" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Tombol Back.png">
+                        <collision-poly>
+                            <point x="0.0721649" y="0.209877" />
+                            <point x="0.484536" y="0" />
+                            <point x="0.927835" y="0.234568" />
+                            <point x="0.958763" y="0.703704" />
+                            <point x="0.520618" y="1" />
+                            <point x="0.0412371" y="0.728395" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonLevel1" sid="6457596738582055">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ContainerTextPilihLevel" sid="7385644156053949">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5025049765981067" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509259" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Container Text Pilih Level.png">
+                        <collision-poly>
+                            <point x="0.00378787" y="0.175926" />
+                            <point x="0.496212" y="0.00925926" />
+                            <point x="0.996212" y="0.166667" />
+                            <point x="0.996212" y="0.851852" />
+                            <point x="0.496212" y="0.990741" />
+                            <point x="0.00378787" y="0.842593" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextPilihLevel" sid="4996741033201397">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="542302253878197">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="8555973651100452">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="ButtonLevel2" sid="4808826609884831">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ButtonLevel3" sid="8423464076955995">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ButtonLevel4" sid="5924872766135846">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ButtonLevel5" sid="5483944990935155">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="TileRumputLevel1" sid="6954831799410277">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Tilemap\roads2W.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TileJalanLevel1" sid="4909565235589357">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Tilemap\Preview_road.png" />
+            <tiles />
+        </object-type>
+        <object-type name="FreeSpotTerbuka" sid="3409635745205417">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3264268230328601" speed="5">
+                    <frame duration="1" hotspotX="0.521197" hotspotY="0.501119" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Pintu\Gua\Gua.png">
+                        <collision-poly>
+                            <point x="0.627671" y="0.312261" />
+                            <point x="0.646387" y="0.863402" />
+                            <point x="0.403041" y="0.875232" />
+                            <point x="0.402644" y="0.30265" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="2251339140387008">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CurrentMove" sid="474620499953242" type="string" />
+                <instance-variable name="IsAnimationStopped" sid="3291464395255743" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="1320432947090053">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="8823056572839759">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="CustomMovement" sid="208923973629203">
+                    <behavior id="custom" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6809840289132722" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Bawah\0.png">
+                        <collision-poly>
+                            <point x="0.0321851" y="0.350921" />
+                            <point x="0.408321" y="0.0270514" />
+                            <point x="0.581261" y="0.0292803" />
+                            <point x="0.963926" y="0.339774" />
+                            <point x="0.960227" y="0.650268" />
+                            <point x="0.776303" y="0.967153" />
+                            <point x="0.213661" y="0.968638" />
+                            <point x="0.0487689" y="0.660968" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Atas\0.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Kanan\0.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Kiri\0.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Up" pingpong="0" repeatcount="1" repeatto="0" sid="8427630689593061" speed="5">
+                    <frame duration="1" hotspotX="0.454545" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Atas\1.png">
+                        <collision-poly>
+                            <point x="0.0681818" y="0.341667" />
+                            <point x="0.471591" y="0.0208333" />
+                            <point x="0.954545" y="0.375" />
+                            <point x="0.943182" y="0.695833" />
+                            <point x="0.659091" y="0.975" />
+                            <point x="0.340909" y="0.983333" />
+                            <point x="0.0454545" y="0.675" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Atas\2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Down" pingpong="0" repeatcount="1" repeatto="0" sid="9788230163806974" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.483871" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Bawah\1.png">
+                        <collision-poly>
+                            <point x="0.0113636" y="0.604838" />
+                            <point x="0.0113636" y="0.33871" />
+                            <point x="0.5" y="0" />
+                            <point x="0.977273" y="0.298387" />
+                            <point x="0.965909" y="0.620968" />
+                            <point x="0.670455" y="0.975806" />
+                            <point x="0.272727" y="0.975806" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Bawah\2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="6146279660599547" speed="5">
+                    <frame duration="1" hotspotX="0.484848" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Kanan\1.png">
+                        <collision-poly>
+                            <point x="0.378788" y="0.971154" />
+                            <point x="9.68575e-008" y="0.298077" />
+                            <point x="0.787879" y="0" />
+                            <point x="0.984848" y="0.307692" />
+                            <point x="0.734848" y="0.971154" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Kanan\2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="5876241250547426" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.481481" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Kiri\1.png">
+                        <collision-poly>
+                            <point x="0.00757576" y="0.277778" />
+                            <point x="0.212121" y="0.00925926" />
+                            <point x="0.984848" y="0.287037" />
+                            <point x="0.651515" y="0.981482" />
+                            <point x="0.272727" y="0.962963" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Player\Jalan ke Kiri\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MusuhSinga" sid="2554382136749744">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Wrap" sid="4215796688854972">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="2054989940250695">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2853126538678589" speed="5">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.511905" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kuda\Jalan ke Kiri\0.png">
+                        <collision-poly>
+                            <point x="0.824427" y="0.928571" />
+                            <point x="0.39313" y="0.982143" />
+                            <point x="1.19209e-007" y="0.863095" />
+                            <point x="0.282443" y="0.255952" />
+                            <point x="0.629771" y="0.238095" />
+                            <point x="0.759542" y="0.0119048" />
+                            <point x="0.90458" y="0.0178571" />
+                            <point x="1" y="0.220238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MusuhSerigala" sid="5364692162269128">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Wrap" sid="5230333960875779">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="7761927959008072">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2313252144119484" speed="5">
+                    <frame duration="1" hotspotX="0.481481" hotspotY="0.481928" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Musuh Level Satu 2.png">
+                        <collision-poly>
+                            <point x="0.914815" y="0.981928" />
+                            <point x="0.481481" y="0.831325" />
+                            <point x="0.207407" y="0.843374" />
+                            <point x="0" y="0.36747" />
+                            <point x="0.17037" y="0.0240968" />
+                            <point x="0.437037" y="0.036145" />
+                            <point x="0.718519" y="0.0180727" />
+                            <point x="0.981481" y="0.668675" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextNyawa" sid="8238264180520675">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LogoNyawa" sid="7485765503704973">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2827690484597213" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Logo Nyawa.png">
+                        <collision-poly>
+                            <point x="0.107143" y="0.243191" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.892857" y="0.243191" />
+                            <point x="0.994048" y="0.5" />
+                            <point x="0.994048" y="0.822957" />
+                            <point x="0.5" y="0.916342" />
+                            <point x="0.00595238" y="0.822957" />
+                            <point x="0.00595238" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="4036128546043348">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sound" sid="1762930083271747">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2042405800759677" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Downloads\Ikon_Sound-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.147222" y="0.147222" />
+                            <point x="0.5" y="0.00277778" />
+                            <point x="0.852778" y="0.147222" />
+                            <point x="1" y="0.5" />
+                            <point x="0.852778" y="0.852778" />
+                            <point x="0.5" y="1" />
+                            <point x="0.147222" y="0.852778" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GarisMerah" sid="6880323692904768">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2494457364113192" speed="5">
+                    <frame duration="1" hotspotX="0.235772" hotspotY="0.830189" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Garis Merah.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.814072" />
+                            <point x="0.700491" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.814072" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TileRumput" sid="5392267477774818">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Tilemap\roads2W.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Telur" sid="4154580455211961">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2237417492503108" speed="5">
+                    <frame duration="1" hotspotX="0.501441" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Telur\gold_color\gold_egg.png">
+                        <collision-poly>
+                            <point x="0.210375" y="0.161504" />
+                            <point x="0.498559" y="0.00221239" />
+                            <point x="0.789625" y="0.161504" />
+                            <point x="0.976945" y="0.5" />
+                            <point x="0.855908" y="0.889381" />
+                            <point x="0.498559" y="0.997788" />
+                            <point x="0.144092" y="0.889381" />
+                            <point x="0.0259366" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextTelurTotal" sid="8854656533339923">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LogoTelur" sid="8545771280832168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="559794429267908" speed="5">
+                    <frame duration="1" hotspotX="0.501441" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Telur\gold_color\gold_egg.png">
+                        <collision-poly>
+                            <point x="0.210375" y="0.161504" />
+                            <point x="0.498559" y="0.00221239" />
+                            <point x="0.789625" y="0.161504" />
+                            <point x="0.976945" y="0.5" />
+                            <point x="0.855908" y="0.889381" />
+                            <point x="0.498559" y="0.997788" />
+                            <point x="0.144092" y="0.889381" />
+                            <point x="0.0259366" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pohon" sid="3807766569232326">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5360274361236885" speed="5">
+                    <frame duration="1" hotspotX="0.507865" hotspotY="0.49896" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Pohon\Pohon.png">
+                        <collision-poly>
+                            <point x="0.00674157" y="0.214137" />
+                            <point x="0.310113" y="0" />
+                            <point x="0.665169" y="0.024948" />
+                            <point x="0.982023" y="0.330562" />
+                            <point x="0.982023" y="0.471933" />
+                            <point x="0.576405" y="0.564449" />
+                            <point x="0.588764" y="1" />
+                            <point x="0.431461" y="0.988566" />
+                            <point x="0.462921" y="0.559252" />
+                            <point x="0.0134831" y="0.43867" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKiriAtasPohon" sid="5820177976008142">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3076822690255652" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKananAtasPohon" sid="3302312639804677">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1942733129386482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasAtasPohon" sid="5880347859146833">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6015708025638566" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasBawahPohon" sid="6813237917486651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9550682362966835" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKiriBawahPohon" sid="2913876993877801">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5834030942315921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKananBawahPohon" sid="9000514042747362">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7736742212262454" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKiriTengahPohon" sid="2710651820024476">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6861653201102196" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKananTengahPohon" sid="1660424697905084">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7502211280752173" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MusuhMobil1" sid="8849757893060809">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Wrap" sid="574444561724289">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="2101061278768381">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1491003860317321" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.55" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Mobil\Musuh Mobil 1.png">
+                        <collision-poly>
+                            <point x="0.94" y="0.875" />
+                            <point x="0.525" y="0.9625" />
+                            <point x="0.0375" y="0.95625" />
+                            <point x="0.02" y="0.55" />
+                            <point x="0.06" y="0.0749997" />
+                            <point x="0.5225" y="0.05" />
+                            <point x="0.975" y="0.0749997" />
+                            <point x="0.9875" y="0.575" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MusuhMobil2" sid="9856406914775949">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Wrap" sid="6333538417889586">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="321070525317974">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6865203372888538" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Mobil\Muush Mobil 2.png">
+                        <collision-poly>
+                            <point x="0.987245" y="0.4375" />
+                            <point x="0.987245" y="0.9375" />
+                            <point x="0.52551" y="0.95" />
+                            <point x="0.188775" y="0.9375" />
+                            <point x="0.0204082" y="0.89375" />
+                            <point x="0.0204082" y="0.45625" />
+                            <point x="0.0459185" y="0.18125" />
+                            <point x="0.627551" y="0.025" />
+                            <point x="0.946428" y="0.175" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonPause" sid="9537785940142141">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7768784469084004" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Button Pause.png">
+                        <collision-poly>
+                            <point x="0.147975" y="0.147975" />
+                            <point x="0.5" y="0.00155763" />
+                            <point x="0.852025" y="0.147975" />
+                            <point x="0.998442" y="0.5" />
+                            <point x="0.852025" y="0.852025" />
+                            <point x="0.5" y="0.998442" />
+                            <point x="0.147975" y="0.852025" />
+                            <point x="0.00155763" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonMainMenuPause" sid="7163492808083651">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ButtonContinuePause" sid="3186937861290903">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="TileJalan" sid="7119388882710679">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Tilemap\Preview_road.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TiledBackground4" sid="6567761360481278">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\Bima\ITATS\Tugas Semester 6\Pembuatan Game dan Realitas Virtual\Asset Game\Jalan.jpg" />
+        </object-type>
+        <object-type name="MusuhSapi" sid="8693191513459074">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CurrentMove" sid="5450252477269716" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Wrap" sid="9463201305990321">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="5083224021916">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2461023818806472" speed="0">
+                    <frame duration="1" hotspotX="0.493151" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Banteng\Default\0.png">
+                        <collision-poly>
+                            <point x="0.89726" y="1" />
+                            <point x="0.0102739" y="0.726852" />
+                            <point x="0.0616438" y="0.0555554" />
+                            <point x="0.633561" y="0.0324074" />
+                            <point x="0.993151" y="0.550926" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="1040525117934549" speed="4">
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.481481" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Banteng\Jalan ke Kiri\0.png">
+                        <collision-poly>
+                            <point x="0.910959" y="1" />
+                            <point x="0.0136986" y="0.743055" />
+                            <point x="0.0539387" y="0.0648142" />
+                            <point x="0.623288" y="0.0324075" />
+                            <point x="1" y="0.578703" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.493151" hotspotY="0.518519" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Banteng\Jalan ke Kiri\1.png">
+                        <collision-poly>
+                            <point x="1" y="0.541667" />
+                            <point x="0.909674" y="1" />
+                            <point x="0" y="0.712963" />
+                            <point x="0.0616438" y="0.0277778" />
+                            <point x="0.6387" y="0.0219909" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.481481" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Banteng\Jalan ke Kiri\0.png">
+                        <collision-poly>
+                            <point x="0.907534" y="1" />
+                            <point x="0.0136986" y="0.731482" />
+                            <point x="0.0736304" y="0.0578702" />
+                            <point x="0.650685" y="0.0370371" />
+                            <point x="0.989726" y="0.550926" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.493151" hotspotY="0.462963" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Banteng\Jalan ke Kiri\2.png">
+                        <collision-poly>
+                            <point x="0.907534" y="0.99537" />
+                            <point x="0" y="0.722222" />
+                            <point x="0.0890409" y="0.0277778" />
+                            <point x="0.621576" y="0.0231481" />
+                            <point x="1" y="0.532407" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FreeSpotTertutup" sid="4767833465706302">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6059127776466688" speed="5">
+                    <frame duration="1" hotspotX="0.504464" hotspotY="0.497326" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Pintu\Gua\Gua Tertutup.png">
+                        <collision-poly>
+                            <point x="0.0118738" y="0.00559925" />
+                            <point x="0.988126" y="0.0114501" />
+                            <point x="0.988126" y="0.979774" />
+                            <point x="0.0118738" y="0.985624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextGoToNextLevel" sid="1380066769243466">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MusuhKambing" sid="8087695885749537">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CurrentMove" sid="6111537058291347" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Wrap" sid="2016837150888711">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="2228971238849939">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9881546705218796" speed="0">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.528302" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Default\1.png">
+                        <collision-poly>
+                            <point x="0.531818" y="0.316038" />
+                            <point x="0.736364" y="0" />
+                            <point x="1" y="0.367925" />
+                            <point x="0.690909" y="0.948114" />
+                            <point x="0.131818" y="0.971698" />
+                            <point x="0" y="0.386792" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.527273" hotspotY="0.557692" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Default\0.png">
+                        <collision-poly>
+                            <point x="1" y="0.629808" />
+                            <point x="0.736363" y="1" />
+                            <point x="0.509091" y="0.665865" />
+                            <point x="0" y="0.590144" />
+                            <point x="0.136364" y="0.00961542" />
+                            <point x="0.686364" y="0.0144231" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="4165741057380442" speed="5">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.490909" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kiri\0.png">
+                        <collision-poly>
+                            <point x="0.995455" y="0.654546" />
+                            <point x="0.740909" y="1" />
+                            <point x="0.561363" y="0.672727" />
+                            <point x="0" y="0.572727" />
+                            <point x="0.190909" y="0.0272727" />
+                            <point x="0.818182" y="0.0363636" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.490909" hotspotY="0.518519" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kiri\1.png">
+                        <collision-poly>
+                            <point x="1" y="0.629629" />
+                            <point x="0.745454" y="1" />
+                            <point x="0.525" y="0.673611" />
+                            <point x="0.00454545" y="0.592593" />
+                            <point x="0.0409091" y="0.00925922" />
+                            <point x="0.754546" y="0.0138889" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.490909" hotspotY="0.462963" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kiri\2.png">
+                        <collision-poly>
+                            <point x="0.740909" y="1" />
+                            <point x="0.531818" y="0.699074" />
+                            <point x="0" y="0.587963" />
+                            <point x="0.129545" y="0.0185186" />
+                            <point x="0.740909" y="0.0277777" />
+                            <point x="1" y="0.675926" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.490909" hotspotY="0.518519" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kiri\3.png">
+                        <collision-poly>
+                            <point x="1" y="0.666667" />
+                            <point x="0.759091" y="0.99537" />
+                            <point x="0.50909" y="0.694444" />
+                            <point x="0.00454545" y="0.601852" />
+                            <point x="0.109091" y="0.0185185" />
+                            <point x="0.736364" y="0.0231481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="174265490918711" speed="5">
+                    <frame duration="1" hotspotX="0.527273" hotspotY="0.481481" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kanan\0.png">
+                        <collision-poly>
+                            <point x="0.590909" y="0.351852" />
+                            <point x="0.740909" y="0.0231482" />
+                            <point x="0.981818" y="0.351852" />
+                            <point x="0.827272" y="0.944445" />
+                            <point x="0.127273" y="0.958333" />
+                            <point x="8.3819e-009" y="0.37037" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.490566" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kanan\1.png">
+                        <collision-poly>
+                            <point x="0" y="0.372642" />
+                            <point x="0.554545" y="0.400944" />
+                            <point x="0.718182" y="0" />
+                            <point x="1" y="0.35849" />
+                            <point x="0.759091" y="0.964623" />
+                            <point x="0.0636364" y="0.966981" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.509434" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kanan\2.png">
+                        <collision-poly>
+                            <point x="0.536364" y="0.34434" />
+                            <point x="0.745455" y="0.00471698" />
+                            <point x="1" y="0.382075" />
+                            <point x="0.781818" y="0.938679" />
+                            <point x="0.154545" y="0.981132" />
+                            <point x="0" y="0.410377" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.527273" hotspotY="0.490566" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Kambing\Jalan ke Kanan\3.png">
+                        <collision-poly>
+                            <point x="0.0181818" y="0.391509" />
+                            <point x="0.559091" y="0.339623" />
+                            <point x="0.745455" y="0" />
+                            <point x="0.995455" y="0.386792" />
+                            <point x="0.709091" y="0.981132" />
+                            <point x="0.0954545" y="0.957547" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextTelurLevelIni" sid="2277572743172258">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextTotal" sid="5037108940013183">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextPerLevel" sid="7248320393182298">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TileAutumn" sid="1231702505134955">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\DELL\Desktop\Project Game\Asset\Terrain\RPG Nature Tileset Autumn.png" />
+            <tiles />
+        </object-type>
+        <object-type name="MusuhKuda" sid="5199925822008987">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CurrentMove" sid="9964086213728545" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Wrap" sid="888433473249806">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="8337287786652015">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9620554066643654" speed="0">
+                    <frame duration="1" hotspotX="0.494382" hotspotY="0.553571" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Belum Dipakai\Kuda\Jalan ke Kiri\3.png">
+                        <collision-poly>
+                            <point x="1" y="0.758929" />
+                            <point x="0.851124" y="0.982143" />
+                            <point x="0.011236" y="0.642857" />
+                            <point x="0.0393258" y="0.223215" />
+                            <point x="0.730337" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="2635797585532808" speed="5">
+                    <frame duration="1" hotspotX="0.505618" hotspotY="0.490909" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Belum Dipakai\Kuda\Jalan ke Kiri\0.png">
+                        <collision-poly>
+                            <point x="0.997191" y="0.709091" />
+                            <point x="0.85955" y="0.977273" />
+                            <point x="0" y="0.470455" />
+                            <point x="0.365168" y="0.00454545" />
+                            <point x="0.761236" y="0.090909" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.542373" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Belum Dipakai\Kuda\Jalan ke Kiri\1.png">
+                        <collision-poly>
+                            <point x="0.997312" y="0.724576" />
+                            <point x="0.846774" y="1" />
+                            <point x="0.0940859" y="0.669492" />
+                            <point x="0" y="0.394068" />
+                            <point x="0.362903" y="0" />
+                            <point x="1" y="0.207627" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.46" hotspotY="0.464286" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Belum Dipakai\Kuda\Jalan ke Kiri\2.png">
+                        <collision-poly>
+                            <point x="0.96" y="0.705357" />
+                            <point x="0.825" y="0.977679" />
+                            <point x="0.0449999" y="0.651786" />
+                            <point x="0.0125" y="0.0892857" />
+                            <point x="0.74625" y="0.00892854" />
+                            <point x="1" y="0.223214" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.494382" hotspotY="0.553571" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Belum Dipakai\Kuda\Jalan ke Kiri\3.png">
+                        <collision-poly>
+                            <point x="1" y="0.736607" />
+                            <point x="0.856741" y="0.982143" />
+                            <point x="0.0196629" y="0.629464" />
+                            <point x="0.0365168" y="0.223214" />
+                            <point x="0.741573" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackgroundGugur" sid="542393077340844">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\DELL\Desktop\Project Game\Asset\Terrain\Terrain Gugur.png" />
+        </object-type>
+        <object-type name="PohonGugur" sid="20886783017627">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5485501534233003" speed="5">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Pohon\Pohon Gugur.png">
+                        <collision-poly>
+                            <point x="0.290323" y="0.166667" />
+                            <point x="0.483871" y="0.037037" />
+                            <point x="0.741935" y="0.12963" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.677419" y="0.833333" />
+                            <point x="0.483871" y="0.944444" />
+                            <point x="0.354839" y="0.796296" />
+                            <point x="0.0645161" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MusuhBabiLiar" sid="4249536276489912">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CurrentMove" sid="3653895455323173" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Wrap" sid="7335043040363934">
+                    <behavior id="wrap" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="1677460926388998">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8193889435209734" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Babi Liar\Boar\Default\0.png">
+                        <collision-poly>
+                            <point x="0.654167" y="0" />
+                            <point x="0.970833" y="0.470588" />
+                            <point x="0.629167" y="0.970589" />
+                            <point x="0.170833" y="0.94853" />
+                            <point x="0.00833333" y="0.338235" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00833333" y="0.661765" />
+                            <point x="0.170833" y="0.0514703" />
+                            <point x="0.629167" y="0.0294113" />
+                            <point x="0.970833" y="0.529412" />
+                            <point x="0.654167" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="8121533581092058" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Babi Liar\Boar\Jalan ke Kanan\0.png">
+                        <collision-poly>
+                            <point x="0.1625" y="0.985294" />
+                            <point x="0" y="0.323529" />
+                            <point x="0.641667" y="2.79397e-009" />
+                            <point x="0.983333" y="0.492647" />
+                            <point x="0.633333" y="0.970588" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Babi Liar\Boar\Jalan ke Kanan\1.png">
+                        <collision-poly>
+                            <point x="0" y="0.330882" />
+                            <point x="0.566667" y="2.79397e-009" />
+                            <point x="0.983333" y="0.455882" />
+                            <point x="0.658334" y="0.955882" />
+                            <point x="0.15" y="0.970588" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.529412" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Babi Liar\Boar\Jalan ke Kanan\2.png">
+                        <collision-poly>
+                            <point x="0" y="0.345588" />
+                            <point x="0.6125" y="0" />
+                            <point x="0.977083" y="0.477941" />
+                            <point x="0.65" y="0.992647" />
+                            <point x="0.145833" y="0.977941" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DELL\Desktop\Project Game\Asset\Karakter\Musuh\Babi Liar\Boar\Jalan ke Kanan\3.png">
+                        <collision-poly>
+                            <point x="0" y="0.338235" />
+                            <point x="0.6125" y="3.50616e-009" />
+                            <point x="1" y="0.514706" />
+                            <point x="0.641667" y="0.977941" />
+                            <point x="0.104167" y="0.977941" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="935968980158366" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.633333" y="0.0294118" />
+                            <point x="0.983333" y="0.507353" />
+                            <point x="0.641667" y="1" />
+                            <point x="0" y="0.676471" />
+                            <point x="0.1625" y="0.0147055" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.15" y="0.0294118" />
+                            <point x="0.658334" y="0.0441177" />
+                            <point x="0.983333" y="0.544118" />
+                            <point x="0.566667" y="1" />
+                            <point x="0" y="0.669118" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.470588">
+                        <collision-poly>
+                            <point x="0.145833" y="0.0220588" />
+                            <point x="0.65" y="0.00735295" />
+                            <point x="0.977083" y="0.522059" />
+                            <point x="0.6125" y="1" />
+                            <point x="0" y="0.654412" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.104167" y="0.0220586" />
+                            <point x="0.641667" y="0.0220588" />
+                            <point x="1" y="0.485294" />
+                            <point x="0.6125" y="1" />
+                            <point x="0" y="0.661765" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasAtasPohonGugur" sid="8769457773349376">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3262615527842432" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKiriPohonGugur" sid="6081717605649128">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5850876908488162" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasKananPohonGugur" sid="9199029914207487">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2916510006993555" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PembatasBawahPohonGugur" sid="7917907398584496">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4856583272434004" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="5478611960360944">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2338349056968259" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonLevel6" sid="2195817216044206">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="ButtonLevel7" sid="7649068394026383">
+            <plugin id="Button" />
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="TextJudulGame" plugin-id="Text" sid="9748036412622885">
+            <members>
+                <member>TextJudulGame1</member>
+                <member>TextJudulGame2</member>
+            </members>
+        </family>
+        <family name="Musuh" plugin-id="Sprite" sid="6285036334086909">
+            <members>
+                <member>MusuhBabiLiar</member>
+                <member>MusuhKambing</member>
+                <member>MusuhKuda</member>
+                <member>MusuhMobil1</member>
+                <member>MusuhMobil2</member>
+                <member>MusuhSapi</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>MenuAwal.xml</layout>
+        <layout>PilihLevel.xml</layout>
+        <layout>LevelSatu.xml</layout>
+        <layout>LevelDua.xml</layout>
+        <layout>LevelTiga.xml</layout>
+        <layout>LevelEmpat.xml</layout>
+        <layout>LevelLima.xml</layout>
+        <layout>LevelEnam.xml</layout>
+        <layout>LevelTujuh.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EventMenuAwal.xml</event-sheet>
+        <event-sheet>EventPilihLevel.xml</event-sheet>
+        <event-sheet>EventLevelSatu.xml</event-sheet>
+        <event-sheet>EventLevelDua.xml</event-sheet>
+        <event-sheet>EventLevelTiga.xml</event-sheet>
+        <event-sheet>EventLevelEmpat.xml</event-sheet>
+        <event-sheet>EventLevelLima.xml</event-sheet>
+        <event-sheet>EventLevelEnam.xml</event-sheet>
+        <event-sheet>EventLevelTujuh.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Browser" uid="3" />
+        <global-instance type="Mouse" uid="14" />
+        <global-instance type="Keyboard" uid="15" />
+        <global-instance type="Audio" uid="30">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="MenuAwal.m4a" />
+        <file name="MenuAwal.ogg" />
+        <file name="PilihLevel.m4a" />
+        <file name="PilihLevel.ogg" />
+        <file name="PlayerMati.m4a" />
+        <file name="PlayerMati.ogg" />
+        <file name="GameOver.m4a" />
+        <file name="GameOver.ogg" />
+        <file name="DapatTelur.m4a" />
+        <file name="DapatTelur.ogg" />
+        <file name="LevelSukses.m4a" />
+        <file name="LevelSukses.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
